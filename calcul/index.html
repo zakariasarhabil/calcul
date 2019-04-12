@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Calculating</title>
+ <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ <section class="calculator">
+  <form name="formos">
+   <input type="text"  name="textinput" class="screen" placeholder="">
+  </form>
+  <div class="buttons">
+   <!-- yellow -->
+   <button type="button" class="btn btn-yellow" onclick="insert('*')">*</button>
+   <button type="button" class="btn btn-yellow" onclick="insert('/')">/</button>
+   <button type="button" class="btn btn-yellow" onclick="insert('-')">-</button>
+   <button type="button" class="btn btn-yellow" onclick="insert('+')">+</button>
+   <!-- grey buttons -->
+   <button type="button" class="btn btn-grey" onclick="insert('.')">.</button>
+   <button type="button" class="btn btn-grey" onclick="insert(9)">9</button>
+   <button type="button" class="btn btn-grey" onclick="insert(8)">8</button>
+   <button type="button" class="btn btn-grey" onclick="insert(7)">7</button>
+   <button type="button" class="btn btn-grey" onclick="insert(6)">6</button>
+   <button type="button" class="btn btn-grey" onclick="insert(5)">5</button>
+   <button type="button" class="btn btn-grey" onclick="insert(4)">4</button>
+   <button type="button" class="btn btn-grey" onclick="insert(3)">3</button>
+   <button type="button" class="btn btn-grey" onclick="insert(2)">2</button>
+   <button type="button" class="btn btn-grey" onclick="insert(1)">1</button>
+   <button type="button" class="btn btn-grey" onclick="insert(0)">0</button>
+   <button type="button" class="btn-equal btn-grey" onclick="math('=')">=</button>
+   <button type="button" class="btn-clear btn-grey" onclick="cleare('C')">C</button>
+
+
+  </div>
+
+
+
+
+
+ </section>
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+
+</html>
